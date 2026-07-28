@@ -34,6 +34,65 @@ tzhe/
 
 ---
 
+# Requirements
+
+The project requires:
+
+- CMake (3.20+ recommended)
+- A C++17 compatible compiler
+- OpenGL
+- vcpkg
+- GLFW
+- GLEW
+
+## Installing Dependencies with vcpkg
+
+Clone vcpkg:
+
+```powershell
+git clone https://github.com/microsoft/vcpkg
+cd vcpkg
+bootstrap-vcpkg.bat
+```
+
+Install required libraries:
+
+```powershell
+vcpkg install glfw3:x64-windows
+vcpkg install glew:x64-windows
+```
+
+(Optional) integrate vcpkg with Visual Studio and CMake:
+
+```powershell
+vcpkg integrate install
+```
+
+---
+
+# Building with CMake
+
+Configure:
+
+```powershell
+cmake -B build ^
+-DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake
+```
+
+Build:
+
+```powershell
+cmake --build build --config Release
+```
+
+Run:
+
+```powershell
+.\build\Release\atom_realtime.exe
+```
+
+---
+
 ## Running the Project
 
 ### Recommended (VS Code)
