@@ -34,6 +34,17 @@ tzhe/
 
 ---
 
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/cluehning/juli_atoms.git
+cd juli_atoms
+```
+
+---
+
 ## Requirements
 
 The project requires:
@@ -45,7 +56,9 @@ The project requires:
 - GLFW
 - GLEW
 
-### Installing Dependencies with vcpkg
+---
+
+## Installing Dependencies with vcpkg
 
 Clone vcpkg:
 
@@ -93,16 +106,9 @@ Run:
 
 ---
 
-### Running the Project
+## Running the Project
 
-Clone the Repository
-
-```bash
-git clone https://github.com/cluehning/juli_atoms.git
-cd juli_atoms
-```
-
-Recommended (VS Code)
+### Recommended (VS Code)
 
 1. Open the project in VS Code.
 2. Press **Ctrl + Shift + P**.
@@ -117,9 +123,7 @@ The project will build and launch automatically.
 
 ---
 
-### Manual Build Command
-
-The VS Code task executes:
+### Alternative: Manual Build Command
 
 ```powershell
 set PATH=C:\msys64\ucrt64\bin;%PATH% && ^
@@ -131,7 +135,7 @@ g++.exe -g src\atom_realtime.cpp ^
 .\bin\atom_realtime.exe
 ```
 
-Build Environment
+### Build Environment
 
 - MSYS2 UCRT64
 - GLFW
