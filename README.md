@@ -9,11 +9,11 @@ This project was inspired by Kavan's atom simulation:
 
 The goal of this project is not only to render atomic orbitals, but also to provide an interactive environment for exploring the mathematical structure of hydrogen wavefunctions through the quantum numbers \(n\), \(l\), and \(m\).
 
-For the complete mathematical derivations, Schrödinger equation solutions, probability density sampling methods, and probability current discussion, see **Atom (1).pdf**.
+For the complete mathematical derivations, Schrödinger equation solutions, probability density sampling methods, and probability current discussion, see **[Atom_Overview.pdf](https://github.com/cluehning/juli_atoms/blob/main/Atom_Overview.pdf)**.
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 tzhe/
@@ -35,9 +35,9 @@ tzhe/
 
 ---
 
-# Running the Project
+## Running the Project
 
-## Recommended (VS Code)
+### Recommended (VS Code)
 
 1. Open the project in VS Code.
 2. Press **Ctrl + Shift + P**.
@@ -52,7 +52,7 @@ The project will build and launch automatically.
 
 ---
 
-## Manual Build Command
+### Manual Build Command
 
 The VS Code task executes:
 
@@ -66,7 +66,7 @@ g++.exe -g src\atom_realtime.cpp ^
 .\bin\atom_realtime.exe
 ```
 
-### Build Environment
+Build Environment
 
 - MSYS2 UCRT64
 - GLFW
@@ -75,13 +75,13 @@ g++.exe -g src\atom_realtime.cpp ^
 
 ---
 
-# Interactive Exploration
+## Interactive Exploration
 
 The main purpose of the project is experimentation and intuition building.
 
 While the renderer is running, you can modify the hydrogen quantum numbers in real time and observe how the orbital changes.
 
-## Controls
+### Controls
 
 | Key | Action |
 |------|---------|
@@ -92,9 +92,9 @@ While the renderer is running, you can modify the hydrogen quantum numbers in re
 | R | Increase `m` |
 | F | Decrease `m` |
 
-## Quantum Numbers
+### Quantum Numbers
 
-### Principal Quantum Number (`n`)
+*Principal Quantum Number (`n`)*
 
 Controls the energy level and overall size of the orbital.
 
@@ -104,7 +104,7 @@ Increasing `n` generally:
 - Adds radial structure
 - Introduces additional nodes
 
-### Angular Momentum Quantum Number (`l`)
+*Angular Momentum Quantum Number (`l`)*
 
 Controls orbital shape.
 
@@ -115,7 +115,7 @@ Changing `l` transforms the geometry of the orbital:
 - `l = 2` → d orbitals
 - `l = 3` → f orbitals
 
-### Magnetic Quantum Number (`m`)
+*Magnetic Quantum Number (`m`)*
 
 Controls phase structure and orbital circulation.
 
@@ -127,7 +127,7 @@ Changing `m` affects:
 
 ---
 
-# What You Can Observe
+## What You Can Observe
 
 As the simulation runs you can directly see:
 
@@ -141,7 +141,7 @@ This turns the renderer into a small interactive laboratory for understanding hy
 
 ---
 
-# Quantum Flow
+## Quantum Flow
 
 Unlike many orbital viewers that only display probability density, this project also visualizes a simplified form of quantum circulation.
 
@@ -151,7 +151,7 @@ The goal is educational and intuitive rather than a full numerical evaluation of
 
 ---
 
-# Documentation
+## Documentation
 
 For detailed explanations of:
 
@@ -172,7 +172,7 @@ please see:
 
 ---
 
-# Credits
+## Credits
 
 Inspired by Kavan's atom simulation project:
 
