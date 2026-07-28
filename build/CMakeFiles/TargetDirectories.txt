@@ -1,0 +1,3 @@
+C:/Users/cheyenne/Downloads/Atoms/build/CMakeFiles/atom.dir
+C:/Users/cheyenne/Downloads/Atoms/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/cheyenne/Downloads/Atoms/build/CMakeFiles/ZERO_CHECK.dir
