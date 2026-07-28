@@ -95,6 +95,13 @@ Run:
 
 ### Running the Project
 
+Clone the Repository
+
+```bash
+git clone https://github.com/cluehning/juli_atoms.git
+cd juli_atoms
+```
+
 Recommended (VS Code)
 
 1. Open the project in VS Code.
