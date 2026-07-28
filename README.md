@@ -1,5 +1,4 @@
-# Atom - Mathematical and Computational Visualization of Hydrogenic
-Orbitals
+# Atom - Mathematical and Computational Visualization of Hydrogenic Orbitals
 
 A real-time OpenGL visualization of hydrogenic atomic orbitals, probability density, and quantum flow.
 
