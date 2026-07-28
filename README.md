@@ -34,7 +34,7 @@ tzhe/
 
 ---
 
-# Requirements
+## Requirements
 
 The project requires:
 
@@ -45,7 +45,7 @@ The project requires:
 - GLFW
 - GLEW
 
-## Installing Dependencies with vcpkg
+### Installing Dependencies with vcpkg
 
 Clone vcpkg:
 
@@ -70,7 +70,7 @@ vcpkg integrate install
 
 ---
 
-# Building with CMake
+## Building with CMake
 
 Configure:
 
@@ -93,9 +93,9 @@ Run:
 
 ---
 
-## Running the Project
+### Running the Project
 
-### Recommended (VS Code)
+Recommended (VS Code)
 
 1. Open the project in VS Code.
 2. Press **Ctrl + Shift + P**.
