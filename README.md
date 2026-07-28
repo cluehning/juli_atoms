@@ -168,7 +168,7 @@ For detailed explanations of:
 
 please see:
 
-**Atom_Overview.pdf**
+**[Atom_Overview.pdf](https://github.com/cluehning/juli_atoms/blob/main/Atom_Overview.pdf)**
 
 ---
 
